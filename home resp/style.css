@@ -1,0 +1,242 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+header{
+    background-color: #00AFC1;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+header h2{
+    color: white;
+}
+.nav{
+    margin-left: 40%;
+}
+.nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+.nav ul li a:hover{
+    color: black;
+    transition: 0.6s;
+}
+.home{
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    background-color: #f8ceec;
+background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%);
+
+}
+.home p{
+    padding: 20px;
+}
+h3{
+    padding: 20px;
+    font: 20px;
+}
+.service{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.service img{
+    width: 500px;
+    height: 300px;
+    padding-left: 10%;
+}
+.service p{
+    width: 50%;
+    padding-left: 10%;
+    margin-top: 3%;
+    font-size: 18px;
+}
+.about{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about img{
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 50%;
+}
+.about p{
+    padding: 20px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+}
+.link ul li a{
+    text-decoration: none;
+    color: white;
+}
+.link ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+.created{
+    width: 100%;
+    height: auto;
+    background-color: #90d5ec;
+    background-image: linear-gradient(315deg, #90d5ec 0%, #fc575e 74%);
+}
+.created p{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 990px){
+    header{
+        width:100%;
+        height: auto;
+    }
+    .nav{
+        margin-left: 10%;
+    }
+    .nav ul{
+        display: flex;
+    }
+    .home{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        background-color: #abe9cd;
+        background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);        
+    }
+    .home p{
+        padding: 20px;
+    }
+    .service{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service img{
+        width: 700px;
+        height: 300px;
+        padding-left: 10%;
+    }
+    .service p{
+        width: 80%;
+    }
+    .about{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about img{
+        width: 300px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 50%;
+    }
+    .about p{
+        padding: 20px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px){
+    header{
+        width:100%;
+        height: auto;
+    }
+    header h2{
+        font-size: 18px;
+    }
+    .nav{
+        margin-left: 18%;
+    }
+    .nav ul li a{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .service{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service img{
+        width: 500px;
+        height: 300px;
+        padding-left: 10%;
+    }
+    .service p{
+        width: 80%;
+    }   
+}
+
+
+
+@media (max-width: 576px){
+    header{
+        width:100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header h2{
+        margin-left: 10%;
+        font-size: 22px;
+    }
+    .nav{
+        margin-left: -10%;
+    }
+    .nav ul li{
+        padding: 10px;
+    }
+    .service{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .service img{
+        width: 400px;
+        height: 200px;
+    }
+    .service p{
+        width: 100%;
+    } 
+} 
